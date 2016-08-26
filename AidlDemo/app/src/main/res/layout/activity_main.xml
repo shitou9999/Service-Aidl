@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bind_service1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下载/启动服务" />
+
+    <Button
+        android:id="@+id/bind_service2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下载第二个" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="同步教辅"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+</LinearLayout>
